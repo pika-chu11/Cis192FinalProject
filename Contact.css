@@ -87,20 +87,29 @@ a{
   }
 
 .button button {
-    background-color: black;
-    color: white;
-    width: 130px;
-    height: 42px;
-    border-radius: 10px;
-    font-family: calibri;
-    font-weight: bold;
-    font-size: 14px;
-    outline: none;
-    margin: 0px 10px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
+  background-color: black;
+  color: white;
+  border-radius: 0px;
+  font-family: calibri;
+  font-weight: bold;
+  font-size: 14px;
+  outline: none;
+  margin: 0px 10px;
+  width: 75%;
+  padding: 12px;
   }
+
+  .name{
+    margin-left: -72%;
+  }
+  .email{
+    margin-left: -72%;
+  }
+  .message{
+    margin-left: -72%;
+    padding-left: 23px;
+  }
+
 
 footer img {
     height: 8%;
